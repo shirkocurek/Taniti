@@ -38,7 +38,7 @@ export default function Example() {
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
-              <img alt="" src="/images/Newlogo.png" className="h-12 w-auto " />
+              <img alt="" src="/taniti/Taniti-logo1.png" className="h-16 w-auto " />
             </a>
           </div>
           <div className="flex lg:hidden">
@@ -54,7 +54,7 @@ export default function Example() {
           <div className="hidden lg:flex lg:gap-x-12">
             <a
               href="/PetShop/home"
-              className={`px-4 text-sm/6 font-medium text-white hover:scale-110 hover:underline hover:underline-offset-4 ${
+              className={`px-4 text-md font-semibold text-white hover:scale-110 hover:underline hover:underline-offset-4 ${
                 pathname.includes("/PetShop/home") &&
                 "underline underline-offset-4 scale-110 font-medium"
               }`}
@@ -81,7 +81,7 @@ export default function Example() {
                 "underline underline-offset-4 scale-110 font-medium"
               }`}
             >
-              Dogs
+              Stays
             </a>
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
@@ -92,7 +92,7 @@ export default function Example() {
                 "underline underline-offset-4 scale-110 font-semibold"
               }`}
             >
-              Cats
+              Dining
             </a>
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
@@ -103,7 +103,7 @@ export default function Example() {
                 "underline underline-offset-4 scale-110 font-medium"
               }`}
             >
-              Birds
+              Attractions
             </a>
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
@@ -114,7 +114,7 @@ export default function Example() {
                 "underline underline-offset-4 scale-110 font-medium"
               }`}
             >
-              FAQ
+              Transportation
             </a>
           </div>
           <div className="hidden lg:flex lg:gap-x-12">
@@ -147,7 +147,7 @@ export default function Example() {
                 <span className="sr-only">Your Company</span>
                 <img
                   alt=""
-                  src="/images/veryNewlogo.png"
+                  src="/taniti/Taniti-logo2.png"
                   className="h-8 w-auto"
                 />
               </a>
@@ -203,13 +203,13 @@ export default function Example() {
           />
         </div>
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
-          <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-65">
+          <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-74">
             <div className="text-center">
               <h1 className="text-balance text-5xl font-semibold tracking-tight text-white">
                 Discover Taniti Island
               </h1>
-              <p className="mt-8 text-pretty text-lg font-medium text-[#eff3f7] sm:text-xl/8">
-                From white-sand beaches and lush rainforest to vibrant culture
+              <p className="mt-5 text-pretty text-2xl font-semibold text-[#eff3f7] sm:text-2xl/8">
+                From white-sand beaches to vibrant culture
                 and adventure, your perfect island getaway starts here.
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">

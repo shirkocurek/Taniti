@@ -3,16 +3,16 @@ import Image from "next/image";
 import React from "react";
 
 const navigation = {
-  product: [
-    { name: "Our Platform", href: "#" },
-    { name: "Analytics", href: "#" },
-    { name: "Data Sets", href: "#" },
-    { name: "Models", href: "#" },
-    { name: "Demo", href: "#" },
+  travel: [
+    { name: "Accommodations", href: "#" },
+    { name: "Packages", href: "#" },
+    { name: "Agents", href: "#" },
+    { name: "Deals", href: "#" },
+    { name: "Memberships", href: "#" },
   ],
   support: [
     { name: "Pricing", href: "#" },
-    { name: "Documentation", href: "#" },
+    { name: "Customer Support", href: "#" },
     { name: "Guides", href: "#" },
     { name: "Resources", href: "#" },
     { name: "Contact Us", href: "/contact" },
@@ -106,13 +106,13 @@ const Footer: React.FC = () => {
           <div className="space-y-8">
             <Image
               alt="accelerator-icon"
-              src={"/images/logo/LogoAccelerator.png"}
-              className="h-7 w-auto"
+              src={"/taniti/Taniti-logo1.png"}
+              className="h-35 w-auto"
               height={500}
               width={500}
             />
             <p className="text-sm leading-6 text-gray-300">
-              Speeding research on the information environment.
+              Taniti, where adventure Awaits Beyond the Shore.
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
@@ -131,10 +131,10 @@ const Footer: React.FC = () => {
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <h3 className="text-sm font-semibold leading-6 text-white">
-                  Product
+                  Travel
                 </h3>
                 <ul role="list" className="mt-6 space-y-4">
-                  {navigation.product.map((item) => (
+                  {navigation.travel.map((item) => (
                     <li key={item.name}>
                       <a
                         href={item.href}
