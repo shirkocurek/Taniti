@@ -97,7 +97,7 @@ const navigation = {
 
 const Footer: React.FC = () => {
   return (
-    <footer aria-labelledby="footer-heading" className="bg-stone-950">
+    <footer aria-labelledby="footer-heading" className="bg-slate-900">
       <h2 id="footer-heading" className="sr-only">
         Footer
       </h2>
