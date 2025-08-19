@@ -2,18 +2,18 @@ import Footer from "@components/Footer";
 import { Metadata } from "next";
 import React from "react";
 import DogsHeader from "@components/PageHeader";
-import Stays from "@components/Stays";
+import Dining from "@components/Dining";
 
 export const metadata: Metadata = {
-  title: "Stays",
-  description: "Stays page of Taniti Island",
+  title: "Dining",
+  description: "Dining page of Taniti Island",
 };
 
 export default function Home() {
   return (
     <>
       <DogsHeader />
-      <Stays />
+      <Dining />
       <Footer />
     </>
   );

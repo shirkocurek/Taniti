@@ -11,26 +11,26 @@ import Link from "next/link";
 
 const timeline = [
   {
-    img: "/taniti/taniti-cabin2.jpeg",
-    name: "The Rainforest Huts",
+    img: "/taniti/taniti-dining6.jpeg",
+    name: "Hotels & Resorts Dining",
     description:
-      "For travelers who want a simple and immersive island experience, the rainforest huts are the perfect choice. These traditional-style lodgings are tucked beneath the canopy, surrounded by lush greenery and the sounds of tropical wildlife. While amenities are basic, the huts provide an authentic, back-to-nature stay that’s especially appealing to budget-conscious tourists and adventure seekers who want to be close to hiking trails and the island’s active volcano.",
+      "Many of Taniti’s hotels and resorts feature in-house restaurants that combine international flavors with local ingredients. Guests can enjoy multi-course meals, room service, and romantic dinners overlooking Yellow Leaf Bay. Hotel dining is ideal for those who prefer convenience, sophistication, and a full-service experience without leaving their accommodations.",
     date: "Aug 2021",
     dateTime: "2021-08",
   },
   {
-    img: "/taniti/tahiti2.jpg",
-    name: "Guest Favorite - The Beachfront Cabanas",
+    img: "/taniti/taniti-dining2.jpg",
+    name: "Beachfront Service",
     description:
-      "Taniti’s beachfront cabanas offer a balance of comfort and relaxation, located just steps away from white sandy shores. Built with natural materials but equipped with modern comforts like electricity and Wi-Fi, these cabanas allow guests to enjoy the beauty of the ocean without sacrificing convenience. They’re popular with couples and families who want to wake up to the sound of waves, lounge in hammocks, and watch breathtaking sunsets right from their porch.",
+      "For a true taste of island living, visitors can enjoy meals served directly on the beach. Picture grilled seafood, tropical cocktails, and light bites delivered to your lounge chair as you watch the sunset. Beachfront dining offers a relaxed, barefoot-friendly atmosphere that captures the essence of a tropical getaway.",
     date: "Dec 2021",
     dateTime: "2021-12",
   },
   {
-    img: "/taniti/taniti-hotel.jpeg",
-    name: "The Taniti Regal hotel",
+    img: "/taniti/taniti-food.jpeg",
+    name: "Cafés & Casual Eateries",
     description:
-      "At the heart of Taniti City stands the Regal Hotel, a four-star resort that delivers world-class service and amenities. Guests can enjoy fine dining, spa treatments, infinity pools, and sweeping views of Yellow Leaf Bay. The Regal is ideal for travelers who want to indulge in luxury and convenience, with easy access to shopping, nightlife, and cultural attractions. It’s the crown jewel of Taniti’s lodging options, combining modern elegance with island charm.",
+      "Taniti’s cafés are perfect for starting the day with fresh pastries, strong coffee, or fresh-squeezed juice. Scattered throughout Taniti City and Merriton Landing, these spots are popular with both locals and tourists looking for a casual meal or quick snack between activities. The laid-back vibe makes them an easy stop for families and solo travelers alike.",
     date: "Feb 2022",
     dateTime: "2022-02",
   },
@@ -51,14 +51,20 @@ const Hero: React.FC = () => {
             <div className="mx-auto max-w-5xl pt-35 pb-15">
               <div className="text-center">
                 <h1 className="text-balance text-5xl font-semibold tracking-tight text-slate-900">
-                  Discover Taniti's Lodging options
+                  Discover Taniti's Dining options
                 </h1>
                 <p className="text-pretty mt-10 text-lg font-medium text-slate-900 sm:text-xl/8">
-                  Taniti has a wide variety of lodging that ranges from an
-                  inexpensive hostel to one large, four-star resort. There are
-                  many small, family-owned hotels and a growing number of bed
-                  and breakfasts. All types of lodging are strictly regulated
-                  and regularly inspected by the Tanitian government.
+                  Taniti’s dining scene is as diverse as the island itself,
+                  offering everything from fresh local seafood to international
+                  cuisine. Taniti offers a dining experience to match every
+                  traveler’s mood — from elegant hotel dining with sweeping
+                  views, to casual beachfront service where meals are paired
+                  with ocean breezes, to cozy cafés perfect for a morning coffee
+                  or light bite. Taniti currently has 10 restaurants: five serve
+                  mostly local fish and rice, three serve American-style meals,
+                  and two serve Pan-Asian cuisine. Taniti has two supermarkets,
+                  two smaller grocery stores, and one convenience store that is
+                  open 24 hours a day.
                 </p>
               </div>
             </div>

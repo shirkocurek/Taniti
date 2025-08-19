@@ -4,7 +4,7 @@ import React from "react";
 
 const navigation = {
   travel: [
-    { name: "Accommodations", href: "#" },
+    { name: "Accommodations", href: "/stays" },
     { name: "Packages", href: "#" },
     { name: "Agents", href: "#" },
     { name: "Deals", href: "#" },
@@ -105,7 +105,7 @@ const Footer: React.FC = () => {
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8">
             <Image
-              alt="accelerator-icon"
+              alt="taniti-icon"
               src={"/taniti/Taniti-logo1.png"}
               className="h-35 w-auto"
               height={500}

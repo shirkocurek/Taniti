@@ -17,28 +17,36 @@ const navigation = [
 
 const faqs = [
   {
-    question: `How often should I walk my dog?`,
-    answer: `The information environment is where human and machine cognition intersect to make sense of the world. It encompasses technology such as printing presses, cell phones, the web, and augmented reality, as well as content like books, videos, status updates, and online articles. These outputs move through multiple channels, such as television, radio, gaming platforms, social media, and in person. The information environment adapts to new social norms and technologies.`,
+    question: `What type of power outlets are used on Taniti?`,
+    answer: `Power outlets are 120 volts, the same as in the United States.`,
   },
   {
-    question: `What’s the best diet for my dog?`,
-    answer: `The Accelerator aims to speed the pace of knowledge development on how the modern information environment affects democratic society by creating shared scientific infrastructure.`,
+    question: `When can alcohol be purchased on the island?`,
+    answer: `Alcohol cannot be served or sold between midnight and 9:00 a.m.`,
   },
   {
-    question: `How can I stop my dog from barking too much?`,
-    answer: `The Accelerator plans to develop various tools that could benefit the research community, such as samples of typical behavior on key platforms across multiple countries, standard sets of labeled data on different types of content, and a standard image-featurization pipeline to enable high-end image analysis by all scholars with basic skills in natural language processing.`,
+    question: `What is the legal drinking age in Taniti?`,
+    answer: `The drinking age is 18, though it is not strictly enforced.`,
   },
   {
-    question: `When should I start training my puppy?`,
-    answer: `The Accelerator has been generously funded by Princeton University, Microsoft, and the John S. and James L. Knight Foundation. Craig Newmark Philanthropies and the William and Flora Hewlett Foundation also supported the exploratory studies.`,
+    question: `Do people in Taniti speak English?`,
+    answer: `Many younger Tanitians speak fluent English. In rural areas, especially among older residents, English is spoken very little.`,
   },
   {
-    question: `How often should my dog see the vet?`,
-    answer: `The Accelerator recognizes that many aspects of the information environment require study beyond the large social media platforms, including how misinformation spreads through mainstream media and websites, the ad tech ecosystem’s role in enabling the spread of low-quality content, and the networks of authors that support conspiracy theories. The Accelerator is not about one type of media but about identifying where we can speed science by investing in shared infrastructure.`,
+    question: `What healthcare facilities are available?`,
+    answer: `Taniti has one hospital and several clinics. The hospital has many multilingual employees.`,
   },
   {
-    question: `Why is my dog chewing everything?`,
-    answer: `This is another perennial challenge for large-scale scientific endeavors. Our exploratory studies have taught us that there is no one-size-fits-all approach. Different fields, and even different instruments within fields, use different access models. We are working to determine the best ways to manage access to what will be a limited resource. We are guided by the core principles of equity, peer review, and transparency.`,
+    question: `Is Taniti a safe place to visit?`,
+    answer: `Violent crime is very rare, but tourists should be mindful of pickpocketing and petty theft as tourism grows.`,
+  },
+  {
+    question: `Are there holidays I should plan around?`,
+    answer: `Yes, Taniti has many national holidays. Tourist attractions and restaurants may be closed on these days, so visitors should plan accordingly.`,
+  },
+  {
+    question: `What currency is used in Taniti?`,
+    answer: `Taniti uses the U.S. dollar. Many businesses also accept euros and yen. Several banks handle currency exchange, and most businesses accept major credit cards.`,
   },
 ];
 const stats = [
@@ -135,9 +143,9 @@ const Hero: React.FC = () => {
                       <img
                         alt="sap"
                         src="/taniti/taniti4.jpeg"
-                        className="aspect-[2/3] w-full rounded-lg bg-gray-900/5 object-cover shadow-lg dark:bg-gray-700/5"
+                        className="aspect-[2/3] w-full rounded-lg bg-slate-900/5 object-cover shadow-lg dark:bg-gray-700/5"
                       />
-                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/10" />
                     </div>
                   </div>
                   <div className="mr-auto w-44 flex-none space-y-8 sm:mr-0 sm:pt-52 lg:pt-36">
@@ -145,17 +153,17 @@ const Hero: React.FC = () => {
                       <img
                         alt="dining"
                         src="/taniti/taniti-dining2.jpg"
-                        className="aspect-[2/3] w-full rounded-lg bg-gray-900/5 object-cover shadow-lg dark:bg-gray-700/5"
+                        className="aspect-[2/3] w-full rounded-lg bg-slate-900/5 object-cover shadow-lg dark:bg-gray-700/5"
                       />
-                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10 " />
+                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/10 " />
                     </div>
                     <div className="relative">
                       <img
                         alt="saparasailing"
                         src="/taniti/parasailing.jpeg"
-                        className="aspect-[2/3] w-full rounded-lg bg-gray-900/5 object-cover shadow-lg dark:bg-gray-700/5"
+                        className="aspect-[2/3] w-full rounded-lg bg-slate-900/5 object-cover shadow-lg dark:bg-gray-700/5"
                       />
-                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10 " />
+                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/10 " />
                     </div>
                   </div>
                   <div className="w-44 flex-none space-y-8 pt-32 sm:pt-0">
@@ -163,17 +171,17 @@ const Hero: React.FC = () => {
                       <img
                         alt="boat"
                         src="/taniti/taniti-attraction3.jpg"
-                        className="aspect-[2/3] w-full rounded-lg bg-gray-900/5 object-cover shadow-lg dark:bg-gray-700/5"
+                        className="aspect-[2/3] w-full rounded-lg bg-slate-900/5 object-cover shadow-lg dark:bg-gray-700/5"
                       />
-                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10 " />
+                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/10 " />
                     </div>
                     <div className="relative">
                       <img
                         alt="goat yoga"
                         src="/taniti/goat-yoga.jpeg"
-                        className="aspect-[2/3] w-full rounded-lg bg-gray-900/5 object-cover shadow-lg dark:bg-gray-700/5"
+                        className="aspect-[2/3] w-full rounded-lg bg-slate-900/5 object-cover shadow-lg dark:bg-gray-700/5"
                       />
-                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
+                      <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-slate-900/10" />
                     </div>
                   </div>
                 </div>
@@ -182,52 +190,8 @@ const Hero: React.FC = () => {
           </div>
         </div>
 
-        {/* Content section */}
-        <div className="mx-auto -mt-12 max-w-7xl px-6 sm:mt-0 lg:px-8 xl:-mt-8">
-          <div className="mx-auto max-w-2xl lg:mx-0 lg:max-w-none">
-            <h2 className="text-pretty text-4xl font-semibold tracking-tight text-slate-900 sm:text-5xl">
-              At Taniti, we have...
-            </h2>
-            <div className="mt-6 flex flex-col gap-x-8 gap-y-20 lg:flex-row">
-              <div className="lg:w-full lg:max-w-2xl lg:flex-auto">
-                <p className="text-xl/8 text-slate-900">
-                  Aliquet nec orci mattis amet quisque ullamcorper neque, nibh
-                  sem. At arcu, sit dui mi, nibh dui, diam eget aliquam. Quisque
-                  id at vitae feugiat egestas ac. Diam nulla orci at in viverra
-                  scelerisque eget. Eleifend egestas fringilla sapien.
-                </p>
-                <p className="mt-10 max-w-xl text-base/7 text-slate-900">
-                  Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
-                  risus enim. Mattis mauris semper sed amet vitae sed turpis id.
-                  Id dolor praesent donec est. Odio penatibus risus viverra
-                  tellus varius sit neque erat velit. Faucibus commodo massa
-                  rhoncus, volutpat. Dignissim sed eget risus enim. Mattis
-                  mauris semper sed amet vitae sed turpis id.
-                </p>
-              </div>
-              <div className="lg:flex lg:flex-auto lg:justify-center">
-                <dl className="w-64 space-y-8 xl:w-80">
-                  {stats.map((stat) => (
-                    <div
-                      key={stat.label}
-                      className="flex flex-col-reverse gap-y-4"
-                    >
-                      <dt className="text-base/7 text-slate-900">
-                        {stat.label}
-                      </dt>
-                      <dd className="text-5xl font-semibold tracking-tight text-slate-900">
-                        {stat.value}
-                      </dd>
-                    </div>
-                  ))}
-                </dl>
-              </div>
-            </div>
-          </div>
-        </div>
-
         {/* Image section */}
-        <div className="mt-32 sm:mt-40 xl:mx-auto xl:max-w-7xl xl:px-8">
+        <div className=" mb-5 sm:mt-15 xl:mx-auto xl:max-w-7xl xl:px-8">
           <img
             alt=""
             src="/taniti/taniti-dining.avif"
@@ -239,11 +203,11 @@ const Hero: React.FC = () => {
         <section id="faqs">
           <div className="bg-white">
             <div className="mx-auto max-w-7xl px-6 pb-20 pt-10">
-              <div className="mx-auto max-w-4xl divide-y divide-gray-900/10">
+              <div className="mx-auto max-w-4xl divide-y divide-slate-900/10">
                 <h2 className="text-2xl font-bold leading-10 my-15 tracking-tight text-slate-900">
                   Frequently asked questions
                 </h2>
-                <dl className="mt-10 space-y-6 divide-y divide-gray-900/10">
+                <dl className="mt-10 space-y-6 divide-y divide-slate-900/10">
                   {faqs.map((faq) => (
                     <Disclosure key={faq.question} as="div" className="pt-6">
                       <dt>

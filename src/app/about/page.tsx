@@ -6,7 +6,7 @@ import PageHeader from "@components/PageHeader";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "About page of the Accelerator IPP",
+  description: "About page of Taniti Island",
 };
 
 export default function Home() {

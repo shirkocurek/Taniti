@@ -1,20 +1,20 @@
-import Image from "next/image";
-import SearchForm from "@components/SearchForm";
+import Footer from "@components/Footer";
+import { Metadata } from "next";
+import React from "react";
+import DogsHeader from "@components/PageHeader";
+import Booking from "@components/Booking";
+
+export const metadata: Metadata = {
+  title: "Booking",
+  description: "Booking page of Taniti Island",
+};
 
 export default function Home() {
   return (
-    <main className="bg-[#013B94]">
-      <section className="max-w-7xl mx-auto p-6">
-        <h2 className="font-bold text-5xl text-white">Find Your Next Stay</h2>
-        <h3 className="text-white py-5 text-xl">
-          Search low prices on hotels, homes and much more...
-        </h3>
-      </section>
-
-      <section className="m-4 mt-0 -mb-14 px-2 lg:px-4">
-        <SearchForm />
-      </section>
-     
-    </main>
+    <>
+      <DogsHeader />
+      <Booking/>
+      <Footer />
+    </>
   );
 }

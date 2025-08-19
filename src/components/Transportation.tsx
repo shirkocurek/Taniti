@@ -11,26 +11,26 @@ import Link from "next/link";
 
 const timeline = [
   {
-    img: "/taniti/taniti-cabin2.jpeg",
-    name: "The Rainforest Huts",
+    img: "/taniti/taniti-bus.jpeg",
+    name: "Bus Tours",
     description:
-      "For travelers who want a simple and immersive island experience, the rainforest huts are the perfect choice. These traditional-style lodgings are tucked beneath the canopy, surrounded by lush greenery and the sounds of tropical wildlife. While amenities are basic, the huts provide an authentic, back-to-nature stay that’s especially appealing to budget-conscious tourists and adventure seekers who want to be close to hiking trails and the island’s active volcano.",
+      "Taniti City is served by a reliable public bus system that runs daily from 5 a.m. to 11 p.m. Private bus lines also connect other parts of the island, making it easy for visitors to reach popular attractions, beaches, and villages. Buses are affordable and ideal for budget travelers or those who prefer to experience the island alongside locals.",
     date: "Aug 2021",
     dateTime: "2021-08",
   },
   {
-    img: "/taniti/tahiti2.jpg",
-    name: "Guest Favorite - The Beachfront Cabanas",
+    img: "/taniti/taniti-boat.jpeg",
+    name: "Boat Travel",
     description:
-      "Taniti’s beachfront cabanas offer a balance of comfort and relaxation, located just steps away from white sandy shores. Built with natural materials but equipped with modern comforts like electricity and Wi-Fi, these cabanas allow guests to enjoy the beauty of the ocean without sacrificing convenience. They’re popular with couples and families who want to wake up to the sound of waves, lounge in hammocks, and watch breathtaking sunsets right from their porch.",
+      "Exploring Taniti by boat offers a unique perspective of the island’s coastline and bays. Regular ferries and chartered tours connect visitors to remote beaches, snorkeling spots, and fishing grounds. For those arriving by cruise ship, docking in Yellow Leaf Bay provides a convenient starting point to explore the island for the day.",
     date: "Dec 2021",
     dateTime: "2021-12",
   },
   {
-    img: "/taniti/taniti-hotel.jpeg",
-    name: "The Taniti Regal hotel",
+    img: "/taniti/taniti-airport.webp",
+    name: "Air Travel",
     description:
-      "At the heart of Taniti City stands the Regal Hotel, a four-star resort that delivers world-class service and amenities. Guests can enjoy fine dining, spa treatments, infinity pools, and sweeping views of Yellow Leaf Bay. The Regal is ideal for travelers who want to indulge in luxury and convenience, with easy access to shopping, nightlife, and cultural attractions. It’s the crown jewel of Taniti’s lodging options, combining modern elegance with island charm.",
+      "Most visitors arrive in Taniti by air. The island is served by a small airport that currently accommodates small jets and propeller planes. Expansion is underway to welcome larger aircraft in the near future, making travel even more accessible. The airport is located near Taniti City, with taxis, buses, and rental cars available just outside the terminal.",
     date: "Feb 2022",
     dateTime: "2022-02",
   },
@@ -51,14 +51,23 @@ const Hero: React.FC = () => {
             <div className="mx-auto max-w-5xl pt-35 pb-15">
               <div className="text-center">
                 <h1 className="text-balance text-5xl font-semibold tracking-tight text-slate-900">
-                  Discover Taniti's Lodging options
+                  Transportation, how to get around the island
                 </h1>
                 <p className="text-pretty mt-10 text-lg font-medium text-slate-900 sm:text-xl/8">
-                  Taniti has a wide variety of lodging that ranges from an
-                  inexpensive hostel to one large, four-star resort. There are
-                  many small, family-owned hotels and a growing number of bed
-                  and breakfasts. All types of lodging are strictly regulated
-                  and regularly inspected by the Tanitian government.
+                  Almost all visitors arrive to Taniti by air, though some
+                  arrive on a small cruise ship that docks in Yellow Leaf Bay
+                  for one night per week. Taniti is served by a small airport
+                  that can accommodate small jets and propeller planes. Taniti
+                  is in the process of expanding the airport so larger jets will
+                  be able to land on the island within the next few years.
+                  Public buses serve Taniti City and run from 5 a.m. to 11 p.m.
+                  every day. Private buses serve the rest of the island. Taxis
+                  are available in Taniti City, and rental cars can be rented
+                  from a local rental agency near the airport. Bikes and helmets
+                  are available to rent from several vendors (helmets are
+                  required by law). Taniti City is fairly flat and very
+                  walkable. Many tourists stay in the area surrounding Merriton
+                  Landing: this area is easy to explore on foot.
                 </p>
               </div>
             </div>

@@ -6,7 +6,7 @@ import Hero from "@components/Hero";
 
 export const metadata: Metadata = {
   title: "Home",
-  description: "Home page of the Accelerator IPP",
+  description: "Home page of Taniti Island",
 };
 
 export default function Home() {
