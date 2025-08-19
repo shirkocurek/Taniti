@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import { useForm } from "react-hook-form";
 import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
-import { BedDoubleIcon, Minus, Plane, Plus } from "lucide-react";
+import { BedDoubleIcon, FerrisWheel, Minus, Plane, Plus } from "lucide-react";
 import {
   CalendarIcon,
   MinusIcon,
@@ -102,7 +102,7 @@ const ContactHero: React.FC = () => {
                   />
                 </div>
 
-                <div className="my-15 flex gap-6">
+                <div className="my-15 flex flex-wrap gap-6">
                   <Menu as="div" className="relative inline-block">
                     <MenuButton className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
                       Lodging
@@ -145,6 +145,7 @@ const ContactHero: React.FC = () => {
                       </div>
                     </MenuItems>
                   </Menu>
+
                   <Menu as="div" className="relative inline-block">
                     <MenuButton className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
                       Transportation
@@ -187,6 +188,74 @@ const ContactHero: React.FC = () => {
                       </div>
                     </MenuItems>
                   </Menu>
+
+                  <Menu as="div" className="relative inline-block">
+                    <MenuButton className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
+                      Attractions
+                      <FerrisWheel className="ml-2 h-4 w-4 text-slate-900" />
+                      <ChevronDownIcon
+                        aria-hidden="true"
+                        className="-mr-1 size-5 text-gray-400"
+                      />
+                    </MenuButton>
+
+                    <MenuItems
+                      transition
+                      className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg outline outline-1 outline-black/5 transition data-[closed]:scale-95 data-[closed]:transform data-[closed]:opacity-0 data-[enter]:duration-100 data-[leave]:duration-75 data-[enter]:ease-out data-[leave]:ease-in"
+                    >
+                      <div className="py-1">
+                        <MenuItem>
+                          <a
+                            href="#"
+                            className="flex space-between justify-between px-4 py-2 text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900 data-[focus]:outline-none"
+                          >
+                            Volcano Tours
+                          </a>
+                        </MenuItem>
+                        <MenuItem>
+                          <a
+                            href="#"
+                            className="flex px-4 py-2 justify-between text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900 data-[focus]:outline-none"
+                          >
+                            Fishing Boat Tours
+                          </a>
+                        </MenuItem>
+                        <MenuItem>
+                          <a
+                            href="#"
+                            className="flex px-4 py-2 justify-between text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900 data-[focus]:outline-none"
+                          >
+                            Snorkeling
+                          </a>
+                        </MenuItem>
+                        <MenuItem>
+                          <a
+                            href="#"
+                            className="flex px-4 py-2 justify-between text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900 data-[focus]:outline-none"
+                          >
+                            Rainforest Tours
+                          </a>
+                        </MenuItem>
+                        <MenuItem>
+                          <a
+                            href="#"
+                            className="flex px-4 py-2 justify-between text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900 data-[focus]:outline-none"
+                          >
+                            Zip-lining
+                          </a>
+                        </MenuItem>
+                        <MenuItem>
+                          <a
+                            href="#"
+                            className="flex px-4 py-2 justify-between text-sm text-gray-700 data-[focus]:bg-gray-100 data-[focus]:text-gray-900 data-[focus]:outline-none"
+                          >
+                            Museum of History
+                          </a>
+                        </MenuItem>
+                      </div>
+                    </MenuItems>
+                  </Menu>
+
                   <Menu as="div" className="relative inline-block">
                     <MenuButton className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50">
                       Party Size
@@ -209,8 +278,8 @@ const ContactHero: React.FC = () => {
                           >
                             Adults
                             <div className="flex">
-                            <PlusIcon className="ml-2 h-4 w-4 text-slate-900" />
-                            <MinusIcon className="ml-2 h-4 w-4 text-slate-900" />
+                              <PlusIcon className="ml-2 h-4 w-4 text-slate-900" />
+                              <MinusIcon className="ml-2 h-4 w-4 text-slate-900" />
                             </div>
                           </a>
                         </MenuItem>
@@ -221,16 +290,17 @@ const ContactHero: React.FC = () => {
                           >
                             kids
                             <div className="flex">
-                            <PlusIcon className="ml-2 h-4 w-4 text-slate-900" />
-                            <MinusIcon className="ml-2 h-4 w-4 text-slate-900" />
+                              <PlusIcon className="ml-2 h-4 w-4 text-slate-900" />
+                              <MinusIcon className="ml-2 h-4 w-4 text-slate-900" />
                             </div>
                           </a>
                         </MenuItem>
                       </div>
                     </MenuItems>
                   </Menu>
-                  <FormItem className="flex">
-                    <FormLabel className="text-white">Dates</FormLabel>
+
+                  <FormItem className="flex flex-col min-w-0">
+                    <FormLabel className="text-white mb-1">Dates</FormLabel>
                     <FormMessage />
                     <Popover>
                       <PopoverTrigger asChild>
@@ -239,21 +309,26 @@ const ContactHero: React.FC = () => {
                             id="date"
                             name="dates"
                             variant={"outline"}
-                            className="w-full shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 justify-start text-left font-normal"
+                            className="w-full min-w-[200px] shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 justify-start text-left font-normal"
                           >
-                            <CalendarIcon className="text-slate-900 font-semibold h-4 w-4 opacity-50" />
-
+                            <CalendarIcon className="text-slate-900 font-semibold h-4 w-4 opacity-50 mr-2" />
                             <span className="text-slate-900 font-semibold">
                               Select your dates
                             </span>
                           </Button>
                         </FormControl>
                       </PopoverTrigger>
-                      <PopoverContent className="w-auto p-0" align="start">
+                      <PopoverContent
+                        className="w-auto p-0 max-w-[90vw]"
+                        align="start"
+                        side="bottom"
+                        sideOffset={4}
+                      >
                         <Calendar
                           initialFocus
                           mode="range"
                           numberOfMonths={2}
+                          className="max-w-full"
                           disabled={(date) =>
                             date < new Date(new Date().setHours(0, 0, 0, 0))
                           }

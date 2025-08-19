@@ -20,7 +20,7 @@ const timeline = [
   },
   {
     img: "/taniti/taniti-attraction3.jpg",
-    name: "Boat Tours",
+    name: "Fishing Tours",
     description:
       "Set sail on a boat tour around Yellow Leaf Bay or beyond. Options range from leisurely sunset cruises to adventurous deep-sea fishing charters. Along the way, you’ll enjoy breathtaking views of the island’s coastline, rainforests, and volcanic landscapes.",
     date: "Dec 2021",
@@ -28,33 +28,33 @@ const timeline = [
   },
   {
     img: "/taniti/islanders.jpeg",
-    name: "Island Dance & Fire Shows",
+    name: "Taniti's Museum of History",
     description:
-      "Experience Taniti’s culture after dark with traditional dance performances and thrilling fire shows. These evening events showcase the island’s rich heritage and provide a lively atmosphere filled with music, storytelling, and audience participation.",
+      "Step into Taniti’s past at the Museum of History, where artifacts, photographs, and exhibits showcase the island’s rich cultural heritage. Visitors can explore displays on indigenous traditions, early fishing and farming practices, and the island’s journey into modern tourism.",
     date: "Feb 2022",
     dateTime: "2022-02",
   },
   {
-    img: "/taniti/taniti-attraction2.avif",
-    name: "Swim with Stingrays",
+    img: "/taniti/volcano.jpeg",
+    name: "Taniti's Active Volcano",
     description:
-      "Animal lovers can enjoy safe, guided experiences swimming with stingrays in shallow lagoons. These interactive encounters are designed for all ages and provide a chance to connect with Taniti’s marine life in a memorable way.",
+      "Witness the power of nature up close with a guided trip to Taniti’s active volcano. Visitors can hike scenic trails around the base, explore lookout points for breathtaking views, and learn about the island’s geology from local guides.",
     date: "Aug 2021",
     dateTime: "2021-08",
   },
   {
-    img: "/taniti/taniti-attraction5.jpg",
-    name: "Water Park Fun",
+    img: "/taniti/zipline.jpeg",
+    name: "Zip-line Adventures",
     description:
-      "Families can spend the day at Taniti’s water park, complete with slides, splash zones, and pools. It’s a great option for children and parents alike, offering a mix of relaxation and excitement in a safe, family-friendly setting.",
+      "Fly through Taniti’s rainforest on a guided zip-line adventure. With sweeping views of waterfalls, the volcano, and Yellow Leaf Bay, it’s an exciting way to experience the island’s natural beauty. Safety gear and expert guides make it fun and secure for families and thrill-seekers alike.",
     date: "Dec 2021",
     dateTime: "2021-12",
   },
   {
-    img: "/taniti/taniti4.jpeg",
-    name: "Water Sports & Parasailing",
+    img: "/taniti/taniti-view2.jpg",
+    name: "Visit Taniti's Rainforest",
     description:
-      "For thrill-seekers, Taniti offers a wide variety of water sports, from jet skiing and kayaking to parasailing high above the bay. Adventurers can take in panoramic views of the island while enjoying an adrenaline rush.",
+      "Discover the heart of Taniti by venturing into its lush tropical rainforest. Trails wind beneath towering trees, past waterfalls, and through vibrant greenery alive with birds and wildlife.",
     date: "Feb 2022",
     dateTime: "2022-02",
   },

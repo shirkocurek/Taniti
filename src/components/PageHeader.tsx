@@ -60,7 +60,7 @@ export default function Example() {
             <a
               href="/"
               className={`px-4 text-sm/6 font-medium text-white hover:scale-110 hover:underline hover:underline-offset-4 ${
-                pathname.includes("/") &&
+                pathname === "/" &&
                 "underline underline-offset-4 scale-110 font-medium"
               }`}
             >

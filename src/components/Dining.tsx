@@ -54,13 +54,7 @@ const Hero: React.FC = () => {
                   Discover Taniti's Dining options
                 </h1>
                 <p className="text-pretty mt-10 text-lg font-medium text-slate-900 sm:text-xl/8">
-                  Taniti’s dining scene is as diverse as the island itself,
-                  offering everything from fresh local seafood to international
-                  cuisine. Taniti offers a dining experience to match every
-                  traveler’s mood — from elegant hotel dining with sweeping
-                  views, to casual beachfront service where meals are paired
-                  with ocean breezes, to cozy cafés perfect for a morning coffee
-                  or light bite. Taniti currently has 10 restaurants: five serve
+                 Taniti currently has 10 restaurants: five serve
                   mostly local fish and rice, three serve American-style meals,
                   and two serve Pan-Asian cuisine. Taniti has two supermarkets,
                   two smaller grocery stores, and one convenience store that is

@@ -5,7 +5,7 @@ import { JSX, SVGProps, useState } from "react";
 const blogPosts = [
   {
     id: 1,
-    title: "Choose from a variety of dining options.",
+    title: "Choose from a variety of dining options",
     href: "/dining",
     description:
       "Choose from a variety of dining, leisure, and adventure activities options.",
@@ -50,7 +50,7 @@ const blogPosts = [
   },
   {
     id: 4,
-    title: "Learn how to get around",
+    title: "From a bus to a boat, Learn how to get around",
     href: "/transportation",
     description:
       "Cupiditate maiores ullam eveniet adipisci in doloribus nulla minus. Voluptas iusto libero adipisci rem et corporis.",
@@ -91,7 +91,7 @@ export default function Example() {
             {blogPosts.map((post) => (
               <article
                 key={post.id}
-                className="relative h-50 isolate flex flex-col justify-end brightness-150 hover:brightness-200 transition-transform ease-in-out overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80"
+                className="relative h-50 isolate flex flex-col justify-end brightness-150 transition-transform ease-in-out overflow-hidden rounded-2xl bg-gray-900 px-8 pb-8 pt-80 sm:pt-48 lg:pt-80"
               >
                 <img
                   alt="menu item photo"
@@ -100,7 +100,7 @@ export default function Example() {
                 />
                 <div className="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40" />
                 <div className="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
-                <h3 className="mt-3 text-lg/6 font-normal text-white ">
+                <h3 className="mt-3 text-lg/6 font-normal text-white hover:underline ">
                   <a href={post.href}>
                     <span className="absolute inset-0" />
                     {post.title} &rarr;
