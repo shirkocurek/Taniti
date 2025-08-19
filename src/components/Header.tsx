@@ -37,10 +37,10 @@ export default function Example() {
           className="flex items-center justify-between p-2 lg:px-8"
         >
           <div className="flex lg:flex-1">
-            <a href="#" className="-m-1.5 p-1.5">
+            <a href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Your Company</span>
               <img
-                alt=""
+                alt="logo"
                 src="/taniti/Taniti-logo1.png"
                 className="h-16 w-auto "
               />
@@ -272,8 +272,8 @@ export default function Example() {
               </p>
               <div className="mt-10 flex items-center justify-center gap-x-6">
                 <a
-                  href="#"
-                  className="text-lg rounded bg-slate-900 px-6.5 py-5 font-medium text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
+                  href="/booking"
+                  className="text-lg rounded bg-slate-900 px-6.5 py-5 font-medium text-white shadow-sm hover:bg-slate-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500"
                 >
                   Book Your Stay Now!
                 </a>

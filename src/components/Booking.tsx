@@ -229,7 +229,7 @@ const ContactHero: React.FC = () => {
                       </div>
                     </MenuItems>
                   </Menu>
-                  <FormItem className="flex flex-col">
+                  <FormItem className="flex">
                     <FormLabel className="text-white">Dates</FormLabel>
                     <FormMessage />
                     <Popover>

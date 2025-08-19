@@ -1,31 +1,12 @@
 "use client";
 
 import { JSX, SVGProps, useState } from "react";
-import { Dialog, DialogPanel } from "@headlessui/react";
-import {
-  ArrowLongRightIcon,
-  ArrowRightIcon,
-  Bars3Icon,
-  ChatBubbleBottomCenterTextIcon,
-  DocumentMagnifyingGlassIcon,
-  PlayCircleIcon,
-  XMarkIcon,
-} from "@heroicons/react/24/outline";
-import {
-  AcademicCapIcon,
-  CheckCircleIcon,
-  HandRaisedIcon,
-  RocketLaunchIcon,
-  SparklesIcon,
-  SunIcon,
-  UserGroupIcon,
-} from "@heroicons/react/20/solid";
 
 const blogPosts = [
   {
     id: 1,
     title: "Choose from a variety of dining options.",
-    href: "#",
+    href: "/dining",
     description:
       "Choose from a variety of dining, leisure, and adventure activities options.",
     imageUrl: "/taniti/taniti-food.jpeg",
@@ -39,8 +20,8 @@ const blogPosts = [
   },
   {
     id: 2,
-    title: "Choose from a variety of activities.",
-    href: "#",
+    title: "Explore the Island's Attractions",
+    href: "/attractions",
     description:
       "Optio cum necessitatibus dolor voluptatum provident commodi et. Qui aperiam fugiat nemo cumque.",
     imageUrl: "/taniti/parasailing.jpeg",
@@ -54,8 +35,8 @@ const blogPosts = [
   },
   {
     id: 3,
-    title: "Asperiores mollitia et dolor autem modi sit eius quisquam",
-    href: "#",
+    title: "Discover a new place to stay",
+    href: "/stays",
     description:
       "Cupiditate maiores ullam eveniet adipisci in doloribus nulla minus. Voluptas iusto libero adipisci rem et corporis.",
     imageUrl: "/taniti/tahiti2.jpg",
@@ -69,8 +50,8 @@ const blogPosts = [
   },
   {
     id: 4,
-    title: "Asperiores mollitia et dolor autem modi sit eius quisquam",
-    href: "#",
+    title: "Learn how to get around",
+    href: "/transportation",
     description:
       "Cupiditate maiores ullam eveniet adipisci in doloribus nulla minus. Voluptas iusto libero adipisci rem et corporis.",
     imageUrl: "/taniti/taniti-bus.jpeg",
@@ -91,18 +72,17 @@ export default function Example() {
     <div className="bg-white">
       <main className="relative isolate">
         <div className="mx-auto px-10 py-20 lg:px-10">
-          <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <div className="mx-auto max-w-5xl px-6 lg:px-8">
             <div className="mx-auto max-w-5xl pt-15 pb-15">
               <div className="text-center">
                 <h1 className="text-balance text-5xl font-semibold tracking-tight text-slate-900">
                   Plan Your Trip,
                 </h1>
                 <p className="text-pretty mt-10 text-lg font-medium text-slate-900 sm:text-xl/8">
-                  The domestic dog is an extremely social animal and offers a
-                  diverse variety of choices as there are well over 300 breeds
-                  recognized by the World Canine Organization. Adopting a dog
-                  offers mutual benefits between dog and owner. If you have a
-                  dog, it is important to make sure that you care for your dog;
+                  From lodging and dining to transportation and local
+                  attractions, Taniti makes it easy to create the perfect island
+                  getaway. Explore your options below and start building the
+                  experience that’s right for you.
                 </p>
               </div>
             </div>
@@ -120,10 +100,10 @@ export default function Example() {
                 />
                 <div className="absolute inset-0 -z-10 bg-gradient-to-t from-gray-900 via-gray-900/40" />
                 <div className="absolute inset-0 -z-10 rounded-2xl ring-1 ring-inset ring-gray-900/10" />
-                <h3 className="mt-3 text-lg/6 font-normal text-white underline-offset-2 underline">
+                <h3 className="mt-3 text-lg/6 font-normal text-white ">
                   <a href={post.href}>
                     <span className="absolute inset-0" />
-                    {post.title}
+                    {post.title} &rarr;
                   </a>
                 </h3>
               </article>
